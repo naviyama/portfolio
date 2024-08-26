@@ -1,0 +1,15 @@
+#introduction {
+  background-color: #48D8A4;
+}
+#introduction > .section-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.introduction-text {
+  color: #fff;
+  /* background-color: black; */
+  padding: 1rem;
+  font-size: 3rem;
+  line-height: 2;
+  
+}

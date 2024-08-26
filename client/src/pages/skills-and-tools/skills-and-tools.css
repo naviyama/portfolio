@@ -1,0 +1,31 @@
+#skills-and-tools{
+  background-color: #EEB4AA;
+}
+
+
+.skills-and-tools-container {
+  margin: 0;
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1.6rem;
+
+}
+
+.skills-and-tools-container > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.skills-and-tools-container > li > img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.skills-and-tools-container > li > p {
+  font-size: 1rem;
+  margin: 0;
+  padding-top: 0.4rem;
+  text-align: center;
+}

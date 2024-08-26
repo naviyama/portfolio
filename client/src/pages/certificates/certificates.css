@@ -1,0 +1,19 @@
+#certificates {
+  background-color: #A0EACD;
+}
+
+.certificate-container {
+  /* background-color: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+
+.certificate {
+  width: 300px;
+  height: auto;
+}
